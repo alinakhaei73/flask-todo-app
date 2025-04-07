@@ -22,15 +22,11 @@ A simple web-based To-Do list application built with Python, Flask, and SQLite f
 
 Follow these steps to set up and run the project locally:
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone <your-repository-url>
-    cd flask_todo_sqlite
-    ```
 
-2.  **Create and Activate Virtual Environment:**
+1.  **Create and Activate Virtual Environment:**
     ```bash
     # Create the virtual environment
+    cd todo-App-main
     python -m venv venv
 
     # Activate it
@@ -40,12 +36,12 @@ Follow these steps to set up and run the project locally:
     source venv/bin/activate
     ```
 
-3.  **Install Dependencies:**
+2.  **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-4.  **Initialize the Database:**
+3.  **Initialize the Database:**
     This command creates the `database.db` file and the necessary `tasks` table.
     ```bash
     flask init-db
