@@ -1,22 +1,45 @@
 # Virtual Environment
 venv/
-.venv/
+*.pyenv
+*.env
 env/
 ENV/
-env.bak/
-venv.bak/
 
-# Python cache files
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite Database file (optional, but recommended if you don't want user data in Git)
+database.db
+*.sqlite
+*.sqlite3
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
 
 # IDE / Editor specific files
-.vscode/
 .idea/
-*.swp
-*.swo
-
-# OS specific files
-.DS_Store
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.DS_Store
 Thumbs.db
+
+# Instance folder (if used for secrets, etc.)
+instance/
+
+# Log files
+*.log
+
+# OS generated files
+.AppleDouble
+.LSOverride
+
+# Environment variables file
+.env.*
+*.env.*
