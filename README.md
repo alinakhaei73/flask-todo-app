@@ -75,3 +75,40 @@ flask_todo_sqlite/
 ├── .gitignore              # Files and directories ignored by Git
 └── README.md               # This file
 ```
+
+## Building the Flask To-Do App: File Creation Steps
+This guide outlines the files to create at each stage when building the Flask To-Do application.
+
+### Phase 1: Project Setup & Environment
+1.  **Create Project Directory:** Make the main folder (e.g., `todo_App`).
+2.  **Set Up Virtual Environment:** Inside the project directory, create and activate a Python virtual environment (`python -m venv venv`, `venv\Scripts\activate`).
+3.  **Install Dependencies:** Use `pip install Flask Click`. (This prepares the environment).
+4.  **Create Folder Structure:** Inside the main project directory, create:
+    *   `static/`
+    *   `templates/`
+
+### Phase 2: Backend Foundation
+5.  **Create Flask App File:** In the main project directory, create `app.py`.
+
+### Phase 3: Frontend Structure & Styling
+6.  **Create HTML Template:** Inside `templates/`, create `templates/index.html`.
+7.  **Create CSS File:** Inside `static/`, create `static/style.css`.
+
+### Phase 4: Frontend Interactivity
+8.  **Create JavaScript File:** Inside `static/`, create `static/script.js`.
+
+### Phase 5: Backend Logic (Populating `app.py`)
+9.  **Modify Flask App File:** Edit `app.py` to add the Python backend logic (database handling, routes, API endpoints, etc.).
+
+### Phase 6: Project Management Files
+10. **Create Git Ignore File:** In the main project directory, create `.gitignore`.
+11. **Generate Requirements File:** Run `pip freeze > requirements.txt` to create `requirements.txt`.
+12. **Create Readme File:** In the main project directory, create `README.md`.
+
+### Phase 7: Database Initialization
+13. **Initialize Database:** Run `flask init-db` . This creates `database.db`.
+
+### Phase 8: Running the Application
+14. **Run Flask Server:** Execute `python app.py` in the terminal.
+
+
