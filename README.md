@@ -1,4 +1,4 @@
-# Flask SQLite To-Do App
+#  To-Do App
 
 A simple web-based To-Do list application built with Python, Flask, and SQLite for persistent storage.
 
@@ -79,11 +79,3 @@ flask_todo_sqlite/
 ├── .gitignore              # Files and directories ignored by Git
 └── README.md               # This file
 ```
-
-## Future Improvements (Optional)
-
-*   Add user authentication (multiple users, private lists).
-*   Implement proper error handling and user feedback on the frontend.
-*   Add unit and integration tests.
-*   Improve UI/UX (e.g., editing tasks, drag-and-drop reordering).
-*   Consider using an ORM like SQLAlchemy for database interactions.
