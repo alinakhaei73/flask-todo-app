@@ -37,13 +37,7 @@ Follow these steps to run the application locally:
     *   `pip` (Python package installer).
 
 2.  **Get the Code:**
-    *   **Option A (Using Git):** Clone the repository:
-        ```bash
-        git clone https://github.com/YourUsername/your-repo-name.git
-        cd your-repo-name
-        ```
-        *(Replace `YourUsername/your-repo-name` with your actual GitHub username and repository name)*
-    *   **Option B (Manual Download):** Download the project files as a ZIP from GitHub and extract them. Navigate into the extracted folder using your terminal.
+    *   Download the project files as a ZIP from GitHub and extract them. Navigate into the extracted folder using your terminal.
 
 3.  **Create and Activate Virtual Environment:** (Recommended)
     *   Create a virtual environment to isolate project dependencies:
@@ -71,36 +65,7 @@ Follow these steps to run the application locally:
     *   Open your web browser and navigate to:
         `http://127.0.0.1:5000` (or the address shown in the terminal output).
 
-## How to Use
 
-1.  **Adding a Task:**
-    *   Type the task description into the "What needs to be done?" input field.
-    *   Select a priority from the dropdown (defaults to Medium).
-    *   Optionally, click the date field (`mm/dd/yyyy` or date icon) to select a due date.
-    *   Click the green "+" button or press Enter in the input field.
-
-2.  **Completing a Task:**
-    *   Click the checkbox next to the task name. The task will be visually marked as complete (strikethrough) and will move to the "Completed" filter view. Click again to mark it as active.
-
-3.  **Deleting a Task:**
-    *   Click the trash can icon (<i class="fas fa-trash-alt"></i>) on the right side of the task you want to remove. You will be asked for confirmation.
-
-4.  **Filtering Tasks:**
-    *   Click the "All", "Active", or "Completed" tabs above the task list to filter the displayed tasks accordingly.
-
-## Current Limitations
-
-*   **No Data Persistence:** Task data is stored in server memory and is **lost** when the Flask application stops.
-*   **Single User:** The application does not support multiple users or accounts. All tasks are visible in one shared list.
-*   **Basic Error Handling:** Error handling is minimal. Invalid inputs or server issues might not provide detailed user feedback.
-*   **No Task Editing:** Existing tasks cannot be edited; they must be deleted and re-added.
-
-## Future Improvements
-
-*   **Database Integration:** Implement persistent storage using a database (e.g., SQLite, PostgreSQL with SQLAlchemy) to save tasks permanently.
-*   **User Authentication:** Add user registration and login to allow multiple users with private task lists.
-*   **Task Editing:** Allow users to modify the text, priority, or due date of existing tasks.
-*   **AJAX Enhancements:** Refine frontend interactions for smoother updates without full re-renders (though `fetch` is already used).
 *   **Improved Error Handling:** Add more robust validation and user-friendly error messages.
 *   **Deployment:** Add instructions or scripts for deploying to platforms like Heroku, PythonAnywhere, or Docker.
 
